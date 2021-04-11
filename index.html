@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array JS | t-rex Game</title>
+    <style>
+     #m div {
+         width: 48px;
+         height: 48px;
+         border: 1px solid #333;
+         float: left;
+     }
+     #m .t-rex {
+         background-image: url(T-Rex-icon.png);
+     } 
+     #m .t-rex.right {
+         transform: scaleX(-1);
+     }
+     #m .t-rex.left {
+         transform: scaleX(1);
+     }
+     #m .cactus {
+         background-image: url(cactus-icon.png);
+     } 
+     #gameScore {
+         width: 100px;
+         height: 25px;
+        
+     }
+     
+    </style>
+</head>
+<body onkeydown="action()">
+
+
+    <div id="m"></div>
+
+    <div id="gameScore"></div>
+    
+    <script src="game.js">
+
+    </script>
+</body>
+</html>
